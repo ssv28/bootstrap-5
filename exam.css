@@ -72,8 +72,17 @@ ul {
 }
 
 .navbar li a:hover {
-    color: #ff4a17;
+    border-bottom: 3px solid #ff4a17;
+    padding-bottom: 3px;
+}
+.active{
+    border-bottom: 3px solid #ff4a17;
+    padding-bottom: 3px;
+}
 
+.navbar ul ul li a:hover{
+    color: #ff4a17;
+    border: 0;
 }
 
 .navbar .getstarted {
@@ -206,11 +215,13 @@ ul {
 
 .about {
     padding: 60px 0px;
+   
 }
 
 .about .count-box {
     padding: 60px 0;
     width: 100%;
+   
 }
 
 .about .count-box i {
@@ -218,7 +229,7 @@ ul {
     font-size: 48px;
     color: #a1bdd1;
     float: left;
-
+ 
 }
 
 .about .count-box span {
@@ -233,7 +244,7 @@ ul {
 .about .count-box p {
     padding: 5px 0 0 0;
     margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raileway", sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: #2e4b5e;
@@ -263,7 +274,7 @@ ul {
 }
 
 .about .content ul i {
-    font-size: 24px;
+    font-size: 20px;
     color: #ff4a17;
     position: absolute;
     left: 0;
@@ -313,3 +324,8 @@ ul {
     z-index: 1000;
     position: relative;
 }
+
+.content ul{
+    padding: 0;
+}
+
